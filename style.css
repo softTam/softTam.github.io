@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(219, 244, 247);
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: blue;
+}
+
+p {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 380px;
+    height: 400px;
+}
+
+.intro-section {
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto;
+    height: 100vh;
+    margin-bottom: 20%;
+}
+
+#text-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 0;
+}
+
+#text-intro > p {
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+}
+
+#footer {
+    color: black;
+    background-color: rgb(250, 158, 249);
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: larger;
+}
+
+#footer > a {
+    color: rgb(202, 55, 10);
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(198, 17, 17);
+    margin-top: 10%;
+}
+
+h3 {
+    font-size: 150%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(42, 82, 240);
+}
+.course-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.course-container > li {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(245, 211, 158);
+    border: 2px solid black;
+    transition: transform 0.3s ease;
+    
+}
+
+.course-container > li, a {
+    color: green;
+    font-weight:bold;
+    text-decoration: none;
+    font-size: large;
+    font-style: italic;
+}
+
+.course-container > li:hover{
+    background-color: rgb(243, 181, 89);
+    transform: scale(1.05);
+}
+
+.hobbies {
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+
+.hobbies > li {
+    padding: 3%;
+    font-size: xx-large;
+    color:rgb(216, 19, 213);
+}
+
+.more-page {
+    text-align: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > li {
+    flex: 1;
+    padding: 1%;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-style: italic;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(97, 246, 196);
+    width: 50%;
+    height: 30%;
+}
+
+label {
+    text-align: left;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    padding: 2%;
+}
+
+input {
+    margin-bottom: 3%;
+}
+
+#message {
+    width: 80%;
+    height: 200px;
+    text-align: left;
+}
+
+#thank-you {
+    color: blue;
+    font-style: italic;
+    font-size: large;
+}
+
+button {
+    height: 10%;
+    width: 15%;
+    align-self: center;
+}
